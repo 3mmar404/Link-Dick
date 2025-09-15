@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🔗 Link-Dick
 
-# Run and deploy your AI Studio app
+A lightweight and fast **link management web app** built with [React](https://react.dev/), [Vite](https://vitejs.dev/), and [TypeScript](https://www.typescriptlang.org/).  
+The project allows you to **save, manage, and quickly access URLs** in a clean interface.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1x0zljarwtkEFjT1AnpbrSdVisuRXmVYE
+## 🚀 Features
+- ⚡ Built with **Vite** for blazing fast development and production builds.
+- 🟦 **TypeScript** support for type-safety and maintainability.
+- 🎨 Modular components and hooks for scalability.
+- 🌐 Deployed easily on [Netlify](https://www.netlify.com/) or GitHub Pages.
+- 📂 Organized project structure:
+  - `components/` – Reusable UI elements
+  - `hooks/` – Custom React hooks
+  - `services/` – Data fetching and API logic
+  - `utils/` – Helper functions
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Installation & Setup
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/3mmar404/Link-Dick.git
+   cd Link-Dick
