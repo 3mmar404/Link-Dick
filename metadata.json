@@ -1,0 +1,5 @@
+{
+  "name": "LinkDeck",
+  "description": "A modern web application to organize, search, and preview your saved links. Paste your links and get instant rich previews with titles, descriptions, and images, all stored locally in your browser.",
+  "requestFramePermissions": []
+}

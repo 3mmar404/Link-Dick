@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkDeck - Your Personal Link Organizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#0ea5e9', // sky-500
+              'primary-hover': '#0284c7', // sky-600
+              'secondary': '#e2e8f0', // slate-200
+              'background': '#f8fafc', // slate-50
+              'card': '#ffffff',
+              'text-main': '#1e293b', // slate-800
+              'text-secondary': '#64748b', // slate-500
+              // Platform Colors
+              'youtube': '#FF0000',
+              'facebook': '#1877F2',
+              'instagram': '#E1306C', // Using the primary gradient color
+              'google': '#0F9D58',
+              'twitter': '#1DA1F2',
+              'other': '#9ca3af', // gray-400
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-text-main antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
